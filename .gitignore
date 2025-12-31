@@ -1,25 +1,21 @@
-# CakePHP 3
+# Dependências
+/vendor/
 
-/vendor/*
-/config/app.php
+# Configuração com credenciais sensíveis
+config/database.php
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Arquivos temporários
+*.tmp
+*.log
 
-/logs/*
-!/logs/empty
+# IDE
+.idea/
+.vscode/
+*.swp
 
-# CakePHP 2
+# Sistema
+.DS_Store
+Thumbs.db
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Arquivos de upload temporários
+/uploads/

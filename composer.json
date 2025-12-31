@@ -1,0 +1,16 @@
+{
+    "description": "Aplicativo para gerar receitas pictográficas a partir de PDFs.",
+    "require": {
+        "smalot/pdfparser": "*",
+        "endroid/qr-code": "^5.0",
+        "tecnickcom/tcpdf": "^6.6",
+        "setasign/fpdi-tcpdf": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Pedrosa Ferreira de Souza",
+            "email": "vvictor.pedrosa.vs@gmail.com"
+        }
+    ]
+}
